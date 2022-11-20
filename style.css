@@ -1,0 +1,99 @@
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+Chettan+2:wght@500&display=swap" rel="stylesheet">
+/* For body CSS */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-image: url(https://mcdn.wallpapersafari.com/medium/78/20/trelAH.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* For Form CSS */
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.container h1{
+    color: white;
+    font-family: 'Baloo Chettan 2', cursive;
+    font-size: 66px;
+    margin: 18px 2px;
+}
+
+.form-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 41px 2px;
+}
+
+.form
+{
+    color: white;
+
+}
+
+#formm label{
+    color: white;
+    margin: 0px 2px;
+    font-family: 'Baloo Chettan 2', cursive;
+    font-size: 40px;
+}
+
+#formm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.div-form{
+    margin: 4px 2px;
+    padding: 6px 2px;
+}
+
+.div-form input {
+    padding: 0px 0px;
+    margin: 0px 12px;
+    text-align: center;
+    font-size: 25px;
+    border: 2px solid blueviolet;
+    border-radius: 20px;
+    font-family: 'Baloo Chettan 2', cursive;
+    color: black;
+}
+
+#btn {
+    margin: 17px 2px;
+    padding: 6px 14px;
+    border: 2px solid blueviolet;
+    border-radius: 14px;
+    background-color: white;
+    color: black;
+    font-family: 'Baloo Chettan 2', cursive;
+    font-size: 15px;
+}
+
+#btn:hover {
+    background-color: rgb(163, 88, 234);
+}
+
+/* For Slider CSS */
+
+#rate{
+    -webkit-appearance: none;
+    width: 242px;
+    height: 7px;
+    outline: none;
+    border-radius: 21px;
+    padding: 12px 10px;
+    background-color: #f5ecec;
+}
